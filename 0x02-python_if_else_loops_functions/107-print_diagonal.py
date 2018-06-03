@@ -3,5 +3,5 @@ def print_diagonal(n):
   if (n<1) :
     print('')
     return
-  for i in range(0,n):
+  for i in range(0,n+1):
     print(i*' '+"\\")
